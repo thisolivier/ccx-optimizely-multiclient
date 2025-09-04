@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		09DE337D2E69E40800D64C60 /* Optimizely in Frameworks */ = {isa = PBXBuildFile; productRef = 09DE337C2E69E40800D64C60 /* Optimizely */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		09DE335F2E69E1DB00D64C60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DE337D2E69E40800D64C60 /* Optimizely in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "CCX-VMO2-Optimizly-MultiClient";
 			packageProductDependencies = (
+				09DE337C2E69E40800D64C60 /* Optimizely */,
 			);
 			productName = "CCX-VMO2-Optimizly-MultiClient";
 			productReference = 09DE33512E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 09DE33482E69E1D900D64C60;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				09DE337B2E69E40800D64C60 /* XCRemoteSwiftPackageReference "swift-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 09DE33522E69E1D900D64C60 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09DE337B2E69E40800D64C60 /* XCRemoteSwiftPackageReference "swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/optimizely/swift-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09DE337C2E69E40800D64C60 /* Optimizely */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09DE337B2E69E40800D64C60 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = Optimizely;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 09DE33492E69E1D900D64C60 /* Project object */;
 }
