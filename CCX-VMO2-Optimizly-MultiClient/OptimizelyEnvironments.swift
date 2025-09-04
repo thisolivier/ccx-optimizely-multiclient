@@ -18,9 +18,9 @@ enum OptimizelyEnvironments: String, CaseIterable {
         case .FSBucketingDevelopment:
             return ["background_colour"]
         case .FSBucketingProduction:
-            return ["decision__flag__two", "decision_test", "background_colour"]
+            return ["decision__flag__two", "decision_test", "background_colour", "liam_test"]
         case .AgentPlaygroundDevelopment:
-            return ["agent_playground_feature"]
+            return ["newflag", "heres_the_key_to_our_flag"]
         case .AgentPlaygroundProduction:
             return ["newflag", "liam_test"]
         }
