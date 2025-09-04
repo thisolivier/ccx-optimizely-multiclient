@@ -5,7 +5,8 @@ struct OptimizelyClientHelper {
     static func instantiateAllClients() -> [OptimizelyEnvironments: OptimizelyClient] {
         var clients: [OptimizelyEnvironments: OptimizelyClient] = [:]
         for env in OptimizelyEnvironments.allCases {
-            let client = OptimizelyClient(sdkKey: env.rawValue, defaultLogLevel: .error)
+            let logger = OptimizelyLoggerAdapter()
+            let client = OptimizelyClient(sdkKey: env.rawValue, logger: logger, defaultLogLevel: .warning)
             clients[env] = client
         }
         return clients
@@ -13,9 +14,12 @@ struct OptimizelyClientHelper {
 
     static func start(clients: [OptimizelyEnvironments: OptimizelyClient], completion: @escaping () -> Void) {
         let group = DispatchGroup()
-        for (_, client) in clients {
+        for (env, client) in clients {
             group.enter()
-            client.start { _ in
+            client.start { result in
+                if case let .failure(error) = result {
+                    Logger.shared.error("Failed to start client for \(env): \(error.localizedDescription)")
+                }
                 group.leave()
             }
         }
@@ -58,6 +62,9 @@ struct OptimizelyClientHelper {
                 let decision = user.decide(key: flag)
                 let supported = env.activeFlags.contains(flag)
                 envResults[flag] = (decision, supported)
+                if !supported {
+                    Logger.shared.warning("Flag \(flag) is not supported in \(env)")
+                }
                 print("Env: \(env) Flag: \(flag) Supported: \(supported) Variation: \(decision.variationKey ?? \"\") Enabled: \(decision.enabled)")
             }
             results[env] = envResults
