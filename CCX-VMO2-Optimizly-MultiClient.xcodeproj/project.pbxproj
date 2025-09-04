@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		09DE335F2E69E1DB00D64C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DE33492E69E1D900D64C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DE33502E69E1D900D64C60;
+			remoteInfo = "CCX-VMO2-Optimizly-MultiClient";
+		};
+		09DE33692E69E1DB00D64C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DE33492E69E1D900D64C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DE33502E69E1D900D64C60;
+			remoteInfo = "CCX-VMO2-Optimizly-MultiClient";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09DE33512E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCX-VMO2-Optimizly-MultiClient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DE335E2E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CCX-VMO2-Optimizly-MultiClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DE33682E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CCX-VMO2-Optimizly-MultiClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		09DE33532E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CCX-VMO2-Optimizly-MultiClient";
+			sourceTree = "<group>";
+		};
+		09DE33612E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CCX-VMO2-Optimizly-MultiClientTests";
+			sourceTree = "<group>";
+		};
+		09DE336B2E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CCX-VMO2-Optimizly-MultiClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09DE334E2E69E1D900D64C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DE335B2E69E1DB00D64C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DE33652E69E1DB00D64C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DE33482E69E1D900D64C60 = {
+			isa = PBXGroup;
+			children = (
+				09DE33532E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient */,
+				09DE33612E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientTests */,
+				09DE336B2E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientUITests */,
+				09DE33522E69E1D900D64C60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09DE33522E69E1D900D64C60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DE33512E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient.app */,
+				09DE335E2E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientTests.xctest */,
+				09DE33682E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09DE33502E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DE33722E69E1DB00D64C60 /* Build configuration list for PBXNativeTarget "CCX-VMO2-Optimizly-MultiClient" */;
+			buildPhases = (
+				09DE334D2E69E1D900D64C60 /* Sources */,
+				09DE334E2E69E1D900D64C60 /* Frameworks */,
+				09DE334F2E69E1D900D64C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				09DE33532E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient */,
+			);
+			name = "CCX-VMO2-Optimizly-MultiClient";
+			packageProductDependencies = (
+			);
+			productName = "CCX-VMO2-Optimizly-MultiClient";
+			productReference = 09DE33512E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09DE335D2E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DE33752E69E1DB00D64C60 /* Build configuration list for PBXNativeTarget "CCX-VMO2-Optimizly-MultiClientTests" */;
+			buildPhases = (
+				09DE335A2E69E1DB00D64C60 /* Sources */,
+				09DE335B2E69E1DB00D64C60 /* Frameworks */,
+				09DE335C2E69E1DB00D64C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DE33602E69E1DB00D64C60 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				09DE33612E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientTests */,
+			);
+			name = "CCX-VMO2-Optimizly-MultiClientTests";
+			packageProductDependencies = (
+			);
+			productName = "CCX-VMO2-Optimizly-MultiClientTests";
+			productReference = 09DE335E2E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09DE33672E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DE33782E69E1DB00D64C60 /* Build configuration list for PBXNativeTarget "CCX-VMO2-Optimizly-MultiClientUITests" */;
+			buildPhases = (
+				09DE33642E69E1DB00D64C60 /* Sources */,
+				09DE33652E69E1DB00D64C60 /* Frameworks */,
+				09DE33662E69E1DB00D64C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DE336A2E69E1DB00D64C60 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				09DE336B2E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientUITests */,
+			);
+			name = "CCX-VMO2-Optimizly-MultiClientUITests";
+			packageProductDependencies = (
+			);
+			productName = "CCX-VMO2-Optimizly-MultiClientUITests";
+			productReference = 09DE33682E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09DE33492E69E1D900D64C60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					09DE33502E69E1D900D64C60 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					09DE335D2E69E1DB00D64C60 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 09DE33502E69E1D900D64C60;
+					};
+					09DE33672E69E1DB00D64C60 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 09DE33502E69E1D900D64C60;
+					};
+				};
+			};
+			buildConfigurationList = 09DE334C2E69E1D900D64C60 /* Build configuration list for PBXProject "CCX-VMO2-Optimizly-MultiClient" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09DE33482E69E1D900D64C60;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 09DE33522E69E1D900D64C60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09DE33502E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient */,
+				09DE335D2E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientTests */,
+				09DE33672E69E1DB00D64C60 /* CCX-VMO2-Optimizly-MultiClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09DE334F2E69E1D900D64C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DE335C2E69E1DB00D64C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DE33662E69E1DB00D64C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09DE334D2E69E1D900D64C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DE335A2E69E1DB00D64C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DE33642E69E1DB00D64C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09DE33602E69E1DB00D64C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DE33502E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient */;
+			targetProxy = 09DE335F2E69E1DB00D64C60 /* PBXContainerItemProxy */;
+		};
+		09DE336A2E69E1DB00D64C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DE33502E69E1D900D64C60 /* CCX-VMO2-Optimizly-MultiClient */;
+			targetProxy = 09DE33692E69E1DB00D64C60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09DE33702E69E1DB00D64C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09DE33712E69E1DB00D64C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09DE33732E69E1DB00D64C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olivier.client11072024.CCX-VMO2-Optimizly-MultiClient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09DE33742E69E1DB00D64C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olivier.client11072024.CCX-VMO2-Optimizly-MultiClient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09DE33762E69E1DB00D64C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olivier.client11072024.CCX-VMO2-Optimizly-MultiClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCX-VMO2-Optimizly-MultiClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CCX-VMO2-Optimizly-MultiClient";
+			};
+			name = Debug;
+		};
+		09DE33772E69E1DB00D64C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olivier.client11072024.CCX-VMO2-Optimizly-MultiClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCX-VMO2-Optimizly-MultiClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CCX-VMO2-Optimizly-MultiClient";
+			};
+			name = Release;
+		};
+		09DE33792E69E1DB00D64C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olivier.client11072024.CCX-VMO2-Optimizly-MultiClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CCX-VMO2-Optimizly-MultiClient";
+			};
+			name = Debug;
+		};
+		09DE337A2E69E1DB00D64C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olivier.client11072024.CCX-VMO2-Optimizly-MultiClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CCX-VMO2-Optimizly-MultiClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DE334C2E69E1D900D64C60 /* Build configuration list for PBXProject "CCX-VMO2-Optimizly-MultiClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DE33702E69E1DB00D64C60 /* Debug */,
+				09DE33712E69E1DB00D64C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DE33722E69E1DB00D64C60 /* Build configuration list for PBXNativeTarget "CCX-VMO2-Optimizly-MultiClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DE33732E69E1DB00D64C60 /* Debug */,
+				09DE33742E69E1DB00D64C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DE33752E69E1DB00D64C60 /* Build configuration list for PBXNativeTarget "CCX-VMO2-Optimizly-MultiClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DE33762E69E1DB00D64C60 /* Debug */,
+				09DE33772E69E1DB00D64C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DE33782E69E1DB00D64C60 /* Build configuration list for PBXNativeTarget "CCX-VMO2-Optimizly-MultiClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DE33792E69E1DB00D64C60 /* Debug */,
+				09DE337A2E69E1DB00D64C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09DE33492E69E1D900D64C60 /* Project object */;
+}
