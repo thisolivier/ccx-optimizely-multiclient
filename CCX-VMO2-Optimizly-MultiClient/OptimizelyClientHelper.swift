@@ -58,7 +58,8 @@ struct OptimizelyClientHelper {
                 let decision = user.decide(key: flag)
                 let supported = env.activeFlags.contains(flag)
                 envResults[flag] = (decision, supported)
-                print("Env: \(env) Flag: \(flag) Supported: \(supported) Variation: \(decision.variationKey ?? \"\") Enabled: \(decision.enabled)")
+                let noVariation = "NONE_FOUND"
+                print("Env: \(env) Flag: \(flag) Supported: \(supported) Variation: \(decision.variationKey ?? noVariation) Enabled: \(decision.enabled)")
             }
             results[env] = envResults
         }

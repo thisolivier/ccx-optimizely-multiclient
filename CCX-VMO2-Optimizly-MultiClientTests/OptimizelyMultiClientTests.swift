@@ -28,7 +28,8 @@ final class OptimizelyMultiClientTests: XCTestCase {
             for (flag, result) in flagDecisions {
                 let decision = result.0
                 let supported = result.1
-                print("Env: \(env) flag: \(flag) supported: \(supported) variation: \(decision.variationKey ?? \"\") enabled: \(decision.enabled)")
+                let badDecision = ""
+                print("Env: \(env) flag: \(flag) supported: \(supported) variation: \(decision.variationKey ?? badDecision) enabled: \(decision.enabled)")
                 if supported {
                     XCTAssertNotNil(decision.variationKey, "Expected variation for supported flag \(flag) in \(env)")
                 } else {
