@@ -32,7 +32,11 @@ final class Logger {
     }
 }
 
-final class OptimizelyLoggerAdapter: OptimizelyLogger {
+final class OptimizelyLoggerAdapter: OPTLogger {
+    static var logLevel: OptimizelyLogLevel = .warning
+
+    required init() {}
+
     func log(level: OptimizelyLogLevel, message: String) {
         switch level {
         case .warning:
