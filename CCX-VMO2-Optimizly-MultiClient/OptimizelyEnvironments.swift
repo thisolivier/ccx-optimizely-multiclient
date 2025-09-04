@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum OptimizelyEnvironments: String {
+enum OptimizelyEnvironments: String, CaseIterable {
     case FSBucketingDevelopment = "5zz25M7Lh6XtaQJzxgFSK"
     case FSBucketingProduction = "L6pA6tFnzsCsa5YSJavGp"
     case AgentPlaygroundDevelopment = "5QdumosKsGvQST87iqPRf"
